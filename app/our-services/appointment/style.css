@@ -1,0 +1,32 @@
+/* custom-day-picker.css */
+.rdp {
+    --rdp-cell-size: 40px; /* Customize the size of each day cell */
+  }
+  
+  .rdp-button {
+    font-size: 1rem;
+    color: rgb(5, 5, 90);
+    border-radius: 50%;
+  }
+  
+  .rdp-button:hover:not([disabled]) {
+    background-color: lightblue;
+  }
+  
+  .rdp-day_selected {
+    background-color: green;
+    color: white;
+  }
+  
+  .rdp-day_today {
+    border: 2px solid red;
+    margin-left: 20px;
+  }
+  
+  .rdp-caption_label {
+    color: rgb(9, 9, 9);
+    font-size: 1.2rem;
+    padding-left: 20px;
+  }
+  
+
